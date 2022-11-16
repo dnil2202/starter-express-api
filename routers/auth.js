@@ -1,5 +1,5 @@
 const express = require('express');
-const { readToken } = require('../confiG/encript');
+const { readToken } = require('../config/encript');
 const { authController } = require("../controlers");
 const route = express.Router();
 const { uploader }= require('../config/upload')

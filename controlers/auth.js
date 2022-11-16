@@ -1,5 +1,5 @@
 const {dbConf, dbQuery}=require('../config/db');
-const {hashPassword, createToken}=require('../confiG/encript')
+const {hashPassword, createToken}=require('../config/encript')
 const { transport } = require('../config/nodemailer');
 
 
